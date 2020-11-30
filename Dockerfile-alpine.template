@@ -1,4 +1,4 @@
-FROM alpine:{{ env.variant | ltrimstr("alpine") }}
+FROM quay.io/mudflat/alpine:{{ env.variant | ltrimstr("alpine") }}
 
 RUN apk add --no-cache \
 		ca-certificates
