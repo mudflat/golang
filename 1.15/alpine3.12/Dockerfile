@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM quay.io/mudflat/alpine:3.12
+FROM quay.io/mudflat/alpine:v3.12
 
 RUN apk add --no-cache \
 		ca-certificates
